@@ -1,0 +1,14 @@
+#include<iostream>
+#include<string>
+#include<fstream>
+using namespace std;
+
+int main (){
+    ifstream file;
+    file.open("TEST.txt");
+    string st;
+    file >> st;
+    file.close();
+    cout << st;
+
+}
