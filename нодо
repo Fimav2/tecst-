@@ -1,14 +1,4 @@
-#include<iostream>
-#include<string>
-#include<fstream>
-using namespace std;
-
-int main (){
-    ifstream file;
-    file.open("TEST.txt");
-    string st;
-    file >> st;
-    file.close();
-    cout << st;
-
+void cout_vector(const vector<int>& vect){
+    for (int elem : vect)
+        cout << elem << ' ';
 }
